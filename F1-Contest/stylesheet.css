@@ -1,0 +1,142 @@
+/* style.css */
+*{
+    
+    font-family: 'Josefin Sans', sans-serif;
+    
+    }
+    
+    header{
+        background-color: #a51357;
+        display: flex;
+        position: sticky;
+        top:0px;
+        height: 50px;
+        box-shadow: 9px 11px 30px -2px rgb(94, 12, 60);
+      }
+      header div {
+        padding: 8px 95px;
+        font-size: 26px;
+    }
+      header a{
+        text-decoration: none;
+        color: #fff;
+        padding-right: 30px;
+        margin-top: 50px;
+      }
+      
+      .label {
+        color: #fff;
+        margin-left: 20px;
+      }
+      body {
+        background-color: #f1f1f1;
+      }
+      /*Table*/
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+        background-color: #fff;
+      
+    }
+    
+    th, td {
+        padding: 10px;
+        text-align: left;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    
+    th {
+        background-color: #d485aa;
+        color: #fff;
+        box-shadow: inset -2px -1px 10px -2px #d485aa;
+    }
+    
+    tr:nth-child(even) {
+        background-color: #fcb5d6;
+    }
+    
+    .nested-table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    
+    .nested-table td {
+        padding: 5px;
+        border: none;
+    }
+    
+    .nested-table td:first-child {
+        font-weight: bold;
+        width: 120px;
+    }
+      
+      .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 125 vh;
+      }
+    
+      
+     /* style.css */
+    
+     .registration-form {
+        background-color: #d485aa;
+        padding: 46px;
+        padding-right: 326px;
+        padding-left: 307px;
+        border-radius: 5px;
+        box-shadow: inset 3px 7px 23px -10px #d485aa;
+        max-width: 375px;
+        margin: 0 auto;
+    }
+    h1#Register {
+        margin: auto;
+        width: 206px;
+        margin-bottom: 23px;
+        font-size: 47px;
+    }
+      
+    .registration-form h2 {
+        text-align: center;
+        margin-bottom: 20px;
+        margin-top: -11px;
+        font-size: 35px;
+    }
+      .form-group {
+        margin-bottom: 20px;
+      }
+      
+      label {
+        display: block;
+        margin-bottom: 5px;
+        font-size: 23px;
+    }
+      
+      input[type="text"],
+      input[type="email"],
+      input[type="date"],
+      input[type="number"],
+      input[type="password"] {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+      
+      input[type="submit"] {
+        padding: 14px 51px;
+        background-color: #b9266b;
+        color: #fff;
+        border: none;
+        border-radius: 9px;
+        cursor: pointer;
+        font-size: 26px;
+        justify-content: center;
+        margin-left: 65px;
+    }
+      
+      input[type="submit"]:hover {
+        background-color: #555;
+      }  
